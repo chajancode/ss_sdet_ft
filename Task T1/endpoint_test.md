@@ -131,7 +131,7 @@
     <td> <br>создатель</td>
     <td> <br>Северо-Запад</td>
     <td> <br> /products/1325/status?authToken=aB3kL9mN2pQ7rT4w&amp;recalculate=true&amp;owner=Создатель&amp;region=Северо-Запад</td>
-    <td rowspan="16">Ответ в формате json с http‑кодом 200 <code>{"productStatus": 1}<code> или <code>{"productStatus": 0}&<code></td>
+    <td rowspan="16">Ответ в формате json с http‑кодом 200 <code>{"productStatus": 1}<code> или <code>{"productStatus": 0}<code></td>
   </tr>
   <tr>
     <td> <br>2</td>
