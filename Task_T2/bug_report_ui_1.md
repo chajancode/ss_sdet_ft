@@ -22,3 +22,4 @@
 Major
 
 ## Вложения
+![img.png](/Task_T2/assets/bug_report_ui_1.png)
