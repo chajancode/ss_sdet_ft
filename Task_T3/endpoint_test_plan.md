@@ -106,20 +106,41 @@ REST API GET /products/{productId}/cost?authToken=&count=&start=
   </tr>
   <tr>
     <td>11</td>
+    <td>9</td>
+    <td>0</td>
+    <td>/products/1325/cost?authToken=aB3kL9mN2pQ7rT4w&amp;count=9&amp;start=0</td>
+    <td>- код: 200<br>- тело ответа:<br>   {"cost": 190}</td>
+  </tr>
+    <tr>
+    <td>12</td>
+    <td>10</td>
+    <td>0</td>
+    <td>/products/1325/cost?authToken=aB3kL9mN2pQ7rT4w&amp;count=10&amp;start=0</td>
+    <td>- код: 200<br>- тело ответа:<br>   {"cost": 200}</td>
+  </tr>
+    <tr>
+    <td>13</td>
+    <td>11</td>
+    <td>0</td>
+    <td>/products/1325/cost?authToken=aB3kL9mN2pQ7rT4w&amp;count=11&amp;start=0</td>
+    <td>- код: 200<br>- тело ответа:<br>   {"cost": 230}</td>
+  </tr>
+  <tr>
+    <td>14</td>
     <td>1</td>
     <td>-1</td>
     <td>/products/1325/cost?authToken=aB3kL9mN2pQ7rT4w&amp;count=1&amp;start=-1</td>
     <td>- код: 400<br>- сообщение о некорректных параметрах</td>
   </tr>
   <tr>
-    <td>12</td>
+    <td>15</td>
     <td>0</td>
     <td>0</td>
     <td>/products/1325/cost?authToken=aB3kL9mN2pQ7rT4w&amp;count=0&amp;start=0</td>
     <td>- код: 400<br>- сообщение о некорректных параметрах</td>
   </tr>
   <tr>
-    <td>13</td>
+    <td>16</td>
     <td>-1</td>
     <td>0</td>
     <td>/products/1325/cost?authToken=aB3kL9mN2pQ7rT4w&amp;count=-1&amp;start=0</td>
@@ -189,6 +210,12 @@ REST API GET /products/{productId}/cost?authToken=&count=&start=
     <td>9</td>
     <td>/products/1325/cost?authToken=&amp;count=5&amp;start=0</td>
     <td>Токен отсутствует</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>/products/1325/cost?authToken=w4Tr7Qp2Nm9Lk3Ba&amp;count=5&amp;start=0</td>
+    <td>Токен без прав доступа к функционалу. 16 символов, содержит цифры и латиницу</td>
+    <td>- код ответа: 403<br>- тело ответа:<br>&nbsp;&nbsp;&nbsp;{"message": "Доступ запрещён"}</td>
   </tr>
 </tbody></table>
 
